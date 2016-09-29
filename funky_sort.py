@@ -1,6 +1,7 @@
 # https://www.hackerrank.com/challenges/almost-sorted
 
-
+#some of these s's and b's aren't needed (and remain from old drafts. maybe I'll clean them up eventually)
+#s = "swapped", b="backwards"
 def is_sorted(n, a, s, b):
 	for i in range(1,n):
 		if a[i] > a[i-1]:
