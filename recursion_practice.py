@@ -29,14 +29,14 @@ def flat(A):
     if not isinstance(A, list):
         return [A]
 
-    return sum([flatten(x) for x in A],[])
+    return sum([flatten(x) for x in A], [])
 
-a = [[1,3],[[200]],44,1]
+a = [[1, 3], [[200]], 44, 1]
 # print flatten(a)
 # print flat(a)
 
 
-def findNest(A,val):
+def findNest(A, val):
     if not isinstance(A, list):
         if A == val:
             return True

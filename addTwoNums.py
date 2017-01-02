@@ -20,12 +20,12 @@ def addTwoNums(LLa, LLb):
         if LLa[i] + LLb[i] <= 9:
             out.append(LLa[i] + LLb[i])
         else:
-            onesPlace = (LLa[i] + LLb[i])-10
-            out.append(onesPlace)
-            LLa[i+1] +=1
+            ones_place = (LLa[i] + LLb[i])-10
+            out.append(ones_place)
+            LLa[i+1] += 1
     return out
 
-a = [2,4,3]
-b = [5,6,4]
-c = [0,0,0]
+# a = [2,4,3]
+# b = [5,6,4]
+# c = [0,0,0]
 #print addTwoNums(a,c)

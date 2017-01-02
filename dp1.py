@@ -13,6 +13,6 @@ def coins(value, denoms):
         return memo[value]
     return change(value)
 
-v = 20
-d = [2,5,4]
-print coins(v,d)
+#v = 20
+#d = [2,5,4]
+#print coins(v,d)

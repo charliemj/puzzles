@@ -1,4 +1,3 @@
-
 def merge(A, B):
     result = []
     if A[0] < B[0]:
@@ -7,10 +6,10 @@ def merge(A, B):
     else:  #B[0] <= A[0]
         result.append(B[0])
         B = B[1:]
-    if len(A)==0:
+    if len(A) == 0:
         result.extend(B)
         return result
-    elif len(B)==0:
+    elif len(B) == 0:
         result.extend(A)
         return result
     else:
@@ -52,8 +51,8 @@ def merge(A, B):
 #         result.extend(right[right_idx:])
 #     return result
 
-A = [1,2,7,11,12]
-B = [4,5,6,9,10]
+# A = [1,2,7,11,12]
+# B = [4,5,6,9,10]
 #print merge(A,B)
 #print Mmerge(A,B)
 
@@ -67,14 +66,13 @@ def merge_sort(A):
     a = merge_sort(left)
     b = merge_sort(right)
 
-    return merge(a,b)   
+    return merge(a,b) 
 
-C = [4,52,3,5,6,7,5,4,3,2]
-print merge_sort(C)
+#C = [4,52,3,5,6,7,5,4,3,2]
+#print merge_sort(C)
 
 def kthLargest(A,k):
     sortedList = merge_sort(A)[::-1]
     return sortedList[k-1]
-print kthLargest(C,1)
-
+#print kthLargest(C,1)
 

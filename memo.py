@@ -11,6 +11,6 @@ def coinsChange(V,v):
             return memo[V]
     return Change(V)
 
-V = 800
-v = [1,5,10,20]
-print coinsChange(V,v)
+# V = 800
+# v = [1,5,10,20]
+# print coinsChange(V,v)

@@ -23,5 +23,5 @@ def longSubStr(string):
             return substring
     return substring
 
-string = "bbbbb"
-print longSubStr(string)
+# string = "bbbbb"
+# print longSubStr(string)

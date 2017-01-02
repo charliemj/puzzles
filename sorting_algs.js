@@ -119,7 +119,7 @@ function merge(left,right){
 
 function mergeSort(myList){
 	len = myList.length;
-	if (myList.length == 0){
+	if (myList.length === 0){
 		return myList;
 	}
 	if (myList.length == 1){
@@ -135,9 +135,3 @@ function mergeSort(myList){
 
 //var myList = [1,0,3];
 //console.log(mergeSort(myList));
-
-
-
-
- 
-

@@ -38,7 +38,7 @@ def perm(s):
         res.append(s)
         return res
     for el in range(len(s)):
-        a = s[:el]+[el:]
+        a = s[:el] + [el:]
         res.extend([])
 
 

@@ -11,5 +11,4 @@ def big_small(A):
     return small, big
 
 #A = [9,4,3,22,1,2,6,5,0,11,23]
-
 #print big_small(A)
